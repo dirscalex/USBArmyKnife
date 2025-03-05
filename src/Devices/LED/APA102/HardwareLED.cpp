@@ -61,7 +61,7 @@ void HardwareLED::loop(Preferences& prefs)
 
 void HardwareLED::begin(Preferences &prefs)
 {
-  changeLEDState(true, 100, 100, 100, 200);
+  changeLEDState(true, 200, 255, 255, 200);
 }
 #endif
 #endif
